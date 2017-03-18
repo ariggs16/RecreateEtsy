@@ -2,10 +2,118 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Etsy</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<script
+	<div id="form">
+		<div class="first">
+			<div>
+				<header class="top"><img src="https://www.etsy.com/assets/dist/images/etsylogo@2x.20170228151449.png" /></header>
+					
+				<div class="search-browser">
+					<input type="text" placeholder="Search for items or shops">
+				</div>
+			</div>
+			<div>
+				<nav class="list">
+					<ul>
+						<li>Sell on Etsy</li>
+						<li>Register</li>
+						<li><input placeholder="Sign in"></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+			<nav class="section">
+				<ul>
+					<li><label>Clothing & Accessories</label></li>
+					<li><label>Jewelry</label></li>
+					<li><label>Craft Supplies & Tools</label></li>
+					<li><label>Weddings</label></li>
+					<li><label>Entertainment</label></li>
+					<li><label>Home & Living</label></li>
+					<li><label>Kids & Baby</label></li>
+					<li><label>Vintage</label></li>
+				</ul>
+			</nav>
+	</div>
+	<div id="content">
+		<nav class="side">
+			<p class="topCat"><a><span><b>All categories</b></span></a></p>
+			<ul>
+				<li><a><span>Home & Living</span></a></li>
+				<li><a><span>Art & Collectibles</span></a></li>
+				<li><a><span>Weddings</span></a></li>
+				<li><a><span>Clothing</span></a></li>
+				<li><a><span>Paper & Party Supplies</span></a></li>
+				<li><a><span>Jewelry</span></a></li>
+				<li><a><span>Craft Supplies & Tools</span></a></li>
+				<li><a><span>Accessories</span></a></li>
+				<li><a><span>Bags & Purses</span></a></li>
+				<li><a><span>Bath & Beauty</span></a></li>
+				<li><a><span>Books, Movies & Music</span></a></li>
+				<li><a><span>Shoes</span></a></li>
+				<li><a><span>Electronics & Accessories</span></a></li>
+				<li><a><span>Toys & Games</span></a></li>
+				<li><a><span>Pet Supplies</span></a></li>
+			</ul>
+			<hr>		
+			<p class="shop"><a><b>Shop location</b></a></p>
+			<div id="container">
+				<label class="custom"><input type="radio" name="button" value="anywhere" checked>Anywhere</label><br>
+				<label class="custom"><input type="radio" name="button" value="us">United States</label><br>
+				<li class="custom"><a>Choose a custom location</a></li><br>
+			</div>	
+			<hr>
+			<p class="items"><a><b>Item type</b></a></p>
+			<div id="it">
+				<label class="custom"><input type="radio" name="button" value="all items" checked>All items</label><br>
+				<label class="custom"><input type="radio" name="button" value="handmade">Handmade</label><br>
+				<label class="custom"><input type="radio" name="button" value="vintage">Vintage</label>
+			</div>
+			<hr>
+			<p class="price"><a><b>Price ($)</b></a></p>
+			<div id="money">
+				<label class="custom"><input type="radio" name="button" value="any" checked>Any price</label><br>
+				<label class="custom"><input type="radio" name="button" value="under">Under $25</label><br>
+				<label class="custom"><input type="radio" name="button" value="more">$25 to $50</label><br>
+				<label class="custom"><input type="radio" name="button" value="over">$50 to $100</label><br>
+				<label class="custom"><input type="radio" name="button" value="other">Over $100</label><br>
+				<div class="mid">
+					<label for="search"><input type="text" placeholder="Low">to</label>
+					<label for="search"><input type="text" placeholder="High"></label>
+				</div>
+			</div>
+			<hr>
+			<p class="filter"><a><b>Filter by color</b></a></p>
+				<div class="box red"></div>
+				<div class="box orange"></div>
+				<div class="box yellow"></div>
+				<div class="box green"></div>
+				<div class="box blue"></div>
+				<div class="box purple"></div>
+				<div class="box black"></div>
+				<div class="box white"></div><br>
+			<hr>
+			<p class="order"><a><b>Odering options</b></a></p>
+			<div id="options">
+				<input type="checkbox" name="option" value="cards">Accepts Etsy gift cards<br>
+				<input type="checkbox" name="option" value="custom">Customizable<br>
+			</div>
+			<hr>
+			<p class="ship"><a><b>Ship to</b></a></p>
+			<select id="country"><option value="none">United States</option>
+			<option value="Canada">Canada</option>
+			<option value="France">France</option></select><br>
+		</nav>
+	</div>
+
+
+
+  <script
   src="http://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
