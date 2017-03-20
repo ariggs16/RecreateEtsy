@@ -21,8 +21,9 @@ img {
 .search-browser {
 	padding: 5px 10px 5px 10px;
 	border:1px solid rgb(207, 203, 200);
-	width:400px;
-	margin:11px;
+	width:300px;
+	margin-top:15px;
+	height:50px;
 	float:left;
 }
 .first {
@@ -215,6 +216,287 @@ input {
 #country {
 	margin-left:20px;
 }
+.group {
+	width:1100px;
+	height:255px;
+	margin:50px;
+	margin-left:320px;
+	position:absolute;
+	top:120px;
+}
+.heading {
+	width:250px;
+	height:40px;
+	margin:80px;
+	margin-left:300px;
+	line-height:35px;
+	text-align:center;
+	font-size:18px;
+	position:absolute;
+	top:55px;
+}
+.keg {
+	width:360px;
+}
+#beer {
+	border-radius:5px;
+	width:360px;
+	height:250px;
+	margin-left:0px;
+	margin-top:0px;
+}
+#pic {
+	position:absolute;
+	border-radius:5px;
+	top:-13px;
+	left:355px;
+	width:360px;
+	height:250px;
+}
+#whiskey {
+	position:absolute;
+	border-radius:5px;
+	top:-13px;
+	left:724px;
+	width:360px;
+	height:250px;
+}
+.note {
+	border-radius:5px;
+	background:white;
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:absolute;
+	top:200px;
+	left:110px;
+}
+.note2 {
+	border-radius:5px;
+	background:white;
+	width:150px;
+	height:40px;
+	text-align:center;
+	position:absolute;
+	top:200px;
+	left:475px;
+}
+.note3 {
+	border-radius:5px;
+	background:white;
+	width:120px;
+	height:40px;
+	text-align:center;
+	position:absolute;
+	top:200px;
+	left:860px;
+}
+.shirt {
+	width:280px;
+	height:240px;
+	margin:10px;
+	margin-left:-18px;
+}
+#rtee {
+	border-radius:5px;
+	margin:0px;
+	width:278px;
+	height:238px;
+}
+.part {
+	border-radius:5px;
+	background:white;
+	width:100px;
+	height:50px;
+	line-height:25px;
+	text-align:center;
+	margin:20px;
+	margin-left:90px;
+	position:absolute;
+	top:420px;
+}
+.thanks {
+	width:280px;
+	height:240px;
+	margin:10px;
+	margin-left:264px;
+	position:absolute;
+	top:254px;
+}
+#full {
+	border-radius:5px;
+	margin:0px;
+	width:278px;
+	height:238px;
+}
+.part1 {
+	border-radius:5px;
+	background:white;
+	width:200px;
+	height:50px;
+	line-height:25px;
+	text-align:center;
+	margin:20px;
+	margin-left:44px;
+	position:absolute;
+	top:156px;
+}
+.j {
+	width:280px;
+	height:240px;
+	margin:10px;
+	margin-left:546px;
+	position:absolute;
+	top:254px;
+}
+#jewelry {
+	border-radius:5px;
+	margin:0px;
+	width:278px;
+	height:238px;
+}
+.part2 {
+	border-radius:5px;
+	background:white;
+	width:100px;
+	height:50px;
+	line-height:25px;
+	text-align:center;
+	margin:20px;
+	margin-left:90px;
+	position:absolute;
+	top:156px;
+}
+.wood {
+	width:280px;
+	height:240px;
+	margin:10px;
+	margin-left:828px;
+	position:absolute;
+	top:254px;
+}
+#tools {
+	border-radius:5px;
+	margin:0px;
+	width:278px;
+	height:238px;
+}
+.part3 {
+	border-radius:5px;
+	background:white;
+	width:190px;
+	height:50px;
+	line-height:25px;
+	text-align:center;
+	margin:20px;
+	margin-left:46px;
+	position:absolute;
+	top:155px;
+}
+#break {
+	width:1130px;
+	margin-left:-22px;
+}
+.heading1 {
+	font-size:14px;
+	margin-top:20px;
+	color:rgb(68, 68, 68);
+}
+.heading2 {
+	color:rgb(68, 68, 68);
+	font-size:14px;
+	margin-left:974px;
+	position:absolute;
+	top:534px;
+}
+#two {
+	border-radius:5px;
+	width:278px;
+	height:190px;
+	margin-left:-18px;
+}
+.part4 {
+	border-style:groove;
+	border-radius:4px;
+	background:white;
+	width:278px;
+	margin-left:-18px;
+	margin-top:-10px;
+	position:absolute;
+}
+.num {
+	width:20px;
+	margin-left:215px;
+	color:lightgreen;
+}
+#three {
+	border-radius:5px;
+	width:278px;
+	height:190px;
+	margin-left:0px;
+}
+.part5 {
+	border-style:groove;
+	border-radius:4px;
+	background:white;
+	text-align:center;
+	width:278px;
+	margin-left:264px;
+	margin-top:-10px;
+	position:absolute;
+}
+.n1 {
+	margin-left:210px;
+	color:lightgreen;
+}
+#four {
+	border-radius:5px;
+	width:278px;
+	height:190px;
+	margin-left:-1px;
+}
+.part6 {
+	border-style:groove;
+	border-radius:4px;
+	background:white;
+	text-align:center;
+	width:278px;
+	margin-left:546px;
+	margin-top:-10px;
+	position:absolute;
+}
+.n2 {
+	margin-left:204px;
+	color:lightgreen;
+}
+#five {
+	border-radius:5px;
+	width:278px;
+	height:190px;
+	margin-left:828px;
+	position:relative;
+	top:-208px;
+}
+.part7 {
+	border-style:groove;
+	border-radius:4px;
+	background:white;
+	text-align:center;
+	width:278px;
+	margin-left:828px;
+	margin-top:-218px;
+	position:absolute;
+}
+.n3 {
+	margin-left:204px;
+	color:lightgreen;
+}
+
+
+
+
+
+
 
 
 
